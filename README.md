@@ -12,6 +12,8 @@ A demonstration project integrating **Laravel**, **Docker**, **PHP**, and **MySQ
 
 ---
 
+```text
+
 Project Structure
 
 laravel/
