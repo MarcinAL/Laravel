@@ -18,6 +18,8 @@ All third-party components retain their original licenses.
 If any dependency or author has been unintentionally omitted, please contact the repository maintainer to ensure proper attribution.
 
 ---
+Read comments in docker-compose.yml if you do not know execute container.
+---
 
 ```text
 
