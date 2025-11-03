@@ -5,6 +5,10 @@ Post-setup instructions for LaravelContainer
    rm ./laravel-app/.gitkeep
    # This file prevents Laravel installation.
 
+   # Just in case throw also this
+   rm ./db/.gitkeep
+   rm ./mysql-data/.gitkeep
+
 2. Enter the container filesystem:
    docker compose exec app bash
 
