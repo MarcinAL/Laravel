@@ -17,7 +17,7 @@ Note:
 All third-party components retain their original licenses.
 If any dependency or author has been unintentionally omitted, please contact the repository maintainer to ensure proper attribution.
 
-Special thanks to the ChatGPT team for assistance in container setup guidance.
+Special thanks to the ChatGPT team for AI bot assistance in container setup guidance.
 
 ---
 Read comments in docker-compose.yml if you do not know how to execute container.  
