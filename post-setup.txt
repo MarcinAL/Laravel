@@ -1,1 +1,25 @@
+Post-setup instructions for LaravelContainer
+-------------------------------------------
 
+1. In the host directory `LaravelContainer`, remove the blocking file:
+   rm ./laravel-app/.gitkeep
+   # This file prevents Laravel installation.
+
+2. Enter the container filesystem:
+   docker compose exec app bash
+
+3. Install Laravel in the current directory (/var/www/html):
+   composer create-project laravel/laravel .
+
+4. Seed database tables (if you have seeders):
+   php artisan db:seed
+
+5. Set proper ownership for storage and cache directories:
+   chown -R www-data:www-data storage bootstrap/cache
+   # Alternatively, for development you can use: chmod -R 777 storage bootstrap/cache
+
+6. Check the Laravel index page in your browser:
+   http://{your host IP address}:8000
+
+7. To explore Laravel and learn more, check this tutorial (first steps may differ):
+   https://www.youtube.com/watch?v=MYyJ4PuL4pY
